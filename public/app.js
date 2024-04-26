@@ -22,8 +22,6 @@ $(document).ready(() => {
 })
 
 function connect() {
-    updateRoomStats();
-
     let uniqueId = window.settings.username || $('#uniqueIdInput').val();
     if (uniqueId !== '') {
 
