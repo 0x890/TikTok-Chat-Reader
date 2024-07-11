@@ -71,7 +71,6 @@ function updateRoomStats() {
 
 
 function generateUsernameLink(data) {
-    console.log(data)
     return `<a class="usernamelink" href="https://www.tiktok.com/@${data.uniqueId}" target="_blank">${data.nickname}</a>`;
 }
 
